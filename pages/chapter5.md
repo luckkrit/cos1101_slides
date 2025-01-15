@@ -349,7 +349,7 @@ EPROM (Erasable Programmable ROM): สามารถลบข้อมูลแ
 layout: center
 ---
 
-# 3. INPUT/OUTPUT 
+# 3. INPUT/OUTPUT (3)
 
 ---
 
@@ -379,7 +379,7 @@ layout: center
 layout: center
 ---
 
-# SUBSYSTEM INTERCONNECTION
+# SUBSYSTEM INTERCONNECTION (4)
 
 
 ---
@@ -499,6 +499,3 @@ Bus เป็นองค์ประกอบสำคัญที่ช่ว�
 
 <img src="/images/memory_mapped_io.png" class="mx-auto w-[500px] mt-2"/>
 
----
-
-# Test
