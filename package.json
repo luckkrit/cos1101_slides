@@ -6,8 +6,8 @@
     "build": "slidev build",
     "dev": "slidev --open",
     "export": "slidev export",
-    "build chapter5": "slidev build --base /cos1101_slides/chapter5 --out chapter5",
-    "build chapter6": "slidev build --base /cos1101_slides/chapter6 --out chapter6"
+    "build_chapter5": "slidev build --base /cos1101_slides/chapter5 --out chapter5",
+    "build_chapter6": "slidev build --base /cos1101_slides/chapter6 --out chapter6"
   },
   "dependencies": {
     "@slidev/cli": "^51.0.1",
