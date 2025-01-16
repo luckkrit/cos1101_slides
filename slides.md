@@ -6,5 +6,8 @@ theme: seriph
 background: https://cover.sli.dev
 fonts:
     sans: Sarabun
-src: ./pages/chapter7.md
 ---
+
+# บทเรียน
+
+[Chapter 5](/chapter5/)
