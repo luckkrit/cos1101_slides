@@ -1320,27 +1320,27 @@ layout: cover
 
 ---
 layout: image
-image: ../public/images/chapter5/cycle1.png
+image: /images/chapter5/cycle1.png
 backgroundSize: contain
 ---
 
 ---
 layout: image
-image: ../public/images/chapter5/cycle2.png
+image: /images/chapter5/cycle2.png
 backgroundSize: contain
 ---
 ---
 layout: image
-image: ../public/images/chapter5/cycle3.png
+image: /images/chapter5/cycle3.png
 backgroundSize: contain
 ---
 ---
 layout: image
-image: ../public/images/chapter5/cycle4.png
+image: /images/chapter5/cycle4.png
 backgroundSize: contain
 ---
 ---
 layout: image
-image: ../public/images/chapter5/cycle5.png
+image: /images/chapter5/cycle5.png
 backgroundSize: contain
 ---
