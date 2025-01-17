@@ -44,6 +44,7 @@ CPU คือ "Central Processing Unit" หรือ หน่วยประม
 # Outlines
 
 <div class="text-black text-xl">
+
 **CPU (Central Processing Unit)** มีหลายองค์ประกอบที่ทำให้สามารถทำงานและประมวลผลข้อมูลได้ 
 
 องค์ประกอบหลักของ CPU ประกอบด้วย:
