@@ -1,7 +1,7 @@
 ---
 title: บทเรียนที่สอน
 ---
-# Table of Contents
+# บทเรียนที่สอน
 
 [Chapter 5](/chapter5/)
 
