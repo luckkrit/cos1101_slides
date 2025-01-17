@@ -44,15 +44,15 @@ CPU คือ "Central Processing Unit" หรือ หน่วยประม
 # Outlines
 
 <div class="text-black text-xl">
-<strong>CPU (Central Processing Unit)</strong> มีหลายองค์ประกอบที่ทำให้สามารถทำงานและประมวลผลข้อมูลได้ 
+**CPU (Central Processing Unit)** มีหลายองค์ประกอบที่ทำให้สามารถทำงานและประมวลผลข้อมูลได้ 
 
 องค์ประกอบหลักของ CPU ประกอบด้วย:
 
-<strong>1. Arithmetic Logic Unit (ALU) (หน่วยคณิตศาสตร์และตรรกะ):</strong> ดำเนินการคำนวณทางคณิตศาสตร์และตรรกะต่าง ๆ ภายใน CPU.
+**1. Arithmetic Logic Unit (ALU) (หน่วยคณิตศาสตร์และตรรกะ):** ดำเนินการคำนวณทางคณิตศาสตร์และตรรกะต่าง ๆ ภายใน CPU.
 
-<strong>2. Control Unit (หน่วยควบคุม):</strong> ดูแลควบคุมการทำงานของ CPU โดยการอ่านคำสั่ง, ตรวจสอบเงื่อนไข, และควบคุมการทำงานของอื่น ๆ.
+**2. Control Unit (หน่วยควบคุม):** ดูแลควบคุมการทำงานของ CPU โดยการอ่านคำสั่ง, ตรวจสอบเงื่อนไข, และควบคุมการทำงานของอื่น ๆ.
 
-<strong>3. Registers (รีจิสเตอร์):</strong> คือ หน่วยความจำขนาดเล็กความเร็วสูงที่อยู่ภายในหน่วยประมวลผลกลาง (CPU) ทำหน้าที่เก็บข้อมูลชั่วคราวที่ CPU กำลังใช้งานอยู่ เช่น คำสั่ง ตัวเลข หรือที่อยู่ความจำต่างๆ
+**3. Registers (รีจิสเตอร์):** คือ หน่วยความจำขนาดเล็กความเร็วสูงที่อยู่ภายในหน่วยประมวลผลกลาง (CPU) ทำหน้าที่เก็บข้อมูลชั่วคราวที่ CPU กำลังใช้งานอยู่ เช่น คำสั่ง ตัวเลข หรือที่อยู่ความจำต่างๆ
 </div>
 
 
@@ -61,13 +61,13 @@ CPU คือ "Central Processing Unit" หรือ หน่วยประม
 # ALU
 <div>
 
-<strong>1. Data Register:</strong> เก็บข้อมูลที่ใช้ในการคำนวณ
+**1. Data Register:** เก็บข้อมูลที่ใช้ในการคำนวณ
 
-<strong>2. Instruction Register (IR):</strong> เก็บคำสั่งที่กำลังถูกประมวลผล เก็บคำสั่งที่กำลังจะทำงาน.
+**2. Instruction Register (IR):** เก็บคำสั่งที่กำลังถูกประมวลผล เก็บคำสั่งที่กำลังจะทำงาน.
 
-<strong>3. Program Counter (PC):</strong> เก็บที่อยู่ของคำสั่งถัดไปที่จะถูกประมวลผล
+**3. Program Counter (PC):** เก็บที่อยู่ของคำสั่งถัดไปที่จะถูกประมวลผล
 
-<strong>4. Cache Memory (หน่วยความจำแคช):</strong> เก็บข้อมูลที่ถูกใช้บ่อยเพื่อเพิ่มความเร็วในการเข้าถึงข้อมูล.
+**4. Cache Memory (หน่วยความจำแคช):** เก็บข้อมูลที่ถูกใช้บ่อยเพื่อเพิ่มความเร็วในการเข้าถึงข้อมูล.
 </div> 
 
 
@@ -201,6 +201,8 @@ terabyte (1 ล้านล้าน)|2<sup>40</sup> bytes | 10<sup>9</sup> byte
     - log<sub>2</sub> 2<sup>25</sup> = 25 bits
 
 ---
+
+# โจทย์
 
 2. ถ้าคอมพิวเตอร์มีหน่วยความจำทั้งหมด 128 เมกะไบต์ (MB) และแต่ละ "word" มีขนาด 8 ไบต์, เราสามารถหาว่าต้องใช้บิตเท่าไรในการที่จะที่อยู่ (address) แต่ละ "word" ในหน่วยความจำนี้ ?
 
@@ -403,7 +405,7 @@ layout: cover
 
 # ต่อกับ CPU, memory
 
-- Bus" ในทางทฤษฎีคอมพิวเตอร์หมายถึงทางสายสัญญาณที่ใช้ในการส่งข้อมูลระหว่างส่วนต่าง ๆ ของระบบคอมพิวเตอร์ ซึ่งเป็นช่องทางสำหรับการสื่อสารระหว่างอุปกรณ์ต่าง ๆ ในคอมพิวเตอร์หรือระบบอิเล็กทรอนิกส์. ตัวอย่างของ Bus ที่สำคัญมีดังนี้:
+- "Bus" ในทางทฤษฎีคอมพิวเตอร์หมายถึงทางสายสัญญาณที่ใช้ในการส่งข้อมูลระหว่างส่วนต่าง ๆ ของระบบคอมพิวเตอร์ ซึ่งเป็นช่องทางสำหรับการสื่อสารระหว่างอุปกรณ์ต่าง ๆ ในคอมพิวเตอร์หรือระบบอิเล็กทรอนิกส์. ตัวอย่างของ Bus ที่สำคัญมีดังนี้:
 ระบบบัสข้อมูล (Data Bus): ใช้สำหรับการส่งข้อมูลจริง ๆ ระหว่างหน่วยความจำ, CPU, และอุปกรณ์อื่น ๆ.
 ระบบบัสที่ใช้สำหรับการส่งคำสั่ง (Address Bus): ใช้สำหรับการระบุตำแหน่งหรือที่อยู่ของข้อมูลที่ต้องการถึงในหน่วยความจำ.
 ระบบบัสควบคุม (Control Bus): ใช้สำหรับส่งสัญญาณควบคุมเพื่อควบคุมการทำงานของอุปกรณ์ต่าง ๆ ในระบบ.
@@ -515,7 +517,7 @@ layout: cover
 
 # Program
 
-- ทุกวันนี้ PC ใช้ชุดคำสั่งที่เรียกว่า <strong>Program</strong>
+- ทุกวันนี้ PC ใช้ชุดคำสั่งที่เรียกว่า **Program**
 - คอมพิวเตอร์จะนำผลลัพธ์ที่ได้จาก Program ผ่านการป้อนข้อมูล ซึ่งโปรแกรมและข้อมูลนั้นจะถูกเก็บลงในหน่วยความจำ
 
 
@@ -527,11 +529,11 @@ layout: cover
 
 - Machine cycle ประกอบด้วยสามขั้นตอนหลัก คือ:
 
-    <strong>1. Fetch</strong> เป็นกระบวนการที่หน่วยควบคุมนำชุดคำสั่งจากหน่วยความจำ (แคชหรือแรม) มาเก็บไว้ในรีจิสเตอร์
+    **1. Fetch** เป็นกระบวนการที่หน่วยควบคุมนำชุดคำสั่งจากหน่วยความจำ (แคชหรือแรม) มาเก็บไว้ในรีจิสเตอร์
 
-    <strong>2. Decode</strong> เป็นกระบวนการถอดรหัสเพื่อแปลความหมายชุดคำสั่ง เพื่อเตรียมส่งไปยังหน่วย ALU
+    **2. Decode** เป็นกระบวนการถอดรหัสเพื่อแปลความหมายชุดคำสั่ง เพื่อเตรียมส่งไปยังหน่วย ALU
 
-    <strong>3. Execute</strong> เป็นกระบวนการประมวลผลชุดคำสั่งโดยหน่วย ALU เพื่อทำงานตามที่ต้องการ โดยจะประมวลผลแบบทีละคำสั่ง
+    **3. Execute** เป็นกระบวนการประมวลผลชุดคำสั่งโดยหน่วย ALU เพื่อทำงานตามที่ต้องการ โดยจะประมวลผลแบบทีละคำสั่ง
 
 
 <img src="/images/chapter5/machine_cycle.png" class="mx-auto w-96 mt-2"/>
@@ -542,18 +544,18 @@ layout: cover
 
 - การทำงานของ I/O คือ วิธีการที่คอมพิวเตอร์สื่อสารและแลกเปลี่ยนข้อมูลกับอุปกรณ์ภายนอกต่างๆ เช่น คีย์บอร์ด เมาส์ จอภาพ หรือฮาร์ดดิสก์ การทำงานของหน่วยไอโอต้องมีคำสั่งถ้าจะใช้งาน ไอโอต้องมีการสั่งว่าจะใช้ การทำงานของไอโอช้ากว่าซีพียู  ต้องมีการรอ หรือมีการประสานงานทำงานการเข้าจังหวะ
 
-- <strong>การถ่ายโอนข้อมูล:</strong> ต้องมีคำสั่งในการถ่ายโอนข้อมูลระหว่างอุปกรณ์ I/O กับ CPU และหน่วยความจำ
+- **การถ่ายโอนข้อมูล:** ต้องมีคำสั่งในการถ่ายโอนข้อมูลระหว่างอุปกรณ์ I/O กับ CPU และหน่วยความจำ
 
-- <strong>การประสานงาน:</strong> การทำงานของ CPU และอุปกรณ์ I/O ต้องมีความสอดคล้องกัน
+- **การประสานงาน:** การทำงานของ CPU และอุปกรณ์ I/O ต้องมีความสอดคล้องกัน
 
 - วิธีการประสานงาน: มี 3 วิธีหลักในการประสานงานการทำงาน
 
 
-    <strong>1. Programmed I/O</strong>
+    **1. Programmed I/O**
 
-    <strong>2. Interrupt driven I/O</strong>
+    **2. Interrupt driven I/O**
     
-    <strong>3. Direct Memory Access (DMA)</strong>
+    **3. Direct Memory Access (DMA)**
 
 
 ---
@@ -576,7 +578,7 @@ layout: cover
 
 ---
 
-# Programmed I/O(2)
+# Programmed I/O (2)
 
 - สรุปคือเสียเวลาการทำงานของซีพียูไม่สามารถทำงานอย่างอื่นได้ เพราะ
 
@@ -607,7 +609,7 @@ layout: cover
 
 ---
 
-# Interrupt-driven I/O(2)
+# Interrupt-driven I/O (2)
 
 - สรุป
     1. อุปกรณ์ I/O จะส่งสัญญาณขัดจังหวะ (interrupt) ไปยัง CPU เมื่อพร้อมที่จะส่งหรือรับข้อมูล
@@ -645,7 +647,7 @@ layout: cover
 
 ---
 
-# Direct Memory Access(2)
+# Direct Memory Access (2)
 
 - สรุป 
     1. อุปกรณ์ I/O จะสามารถเข้าถึงหน่วยความจำโดยตรงโดยไม่ต้องผ่าน CPU
@@ -654,7 +656,7 @@ layout: cover
     
 ---
 
-# Direct Memory Access(3)
+# Direct Memory Access (3)
 
 <div class="flex gap-3">
 <div>
@@ -727,7 +729,7 @@ layout: cover
 
 ---
 
-# Pipelining(2)
+# Pipelining (2)
 
 <div class="flex gap-3">
 <div class="w-1/2">
@@ -757,18 +759,588 @@ layout: cover
     
 ---
 
-# Parallel Processing(2)
+# Parallel Processing (2)
 
 <div class="flex gap-3 items-center">
 <div class="w-1/2">
 
 1. SISD คือ โปรเซสเซอร์ทีใช้การประมวลผลด้วยชุดข้อมูลเพียงชุดเดียวและทำงานด้วยคำสั่งเดียว 
-2. SIMD คือ ประมวลผลด้วยชุดข้อมูลหลายชุดแต่ทำงานด้วยคำสงเดียว ภายใน 1สญัญาณนาฬิกาและไดผ้ลลพัธ์หลายชุดใชใ้นโปรเซสเซอร์แบบPentium MMX  
-3. MISD คือ โปรเซสเซอร์ทีใชก้ารประมวลผลดว้ยชุดขอ้มูลเพียงชุดเดียวแต่ทำงานได้หลายคำสั่ง ไม่ค่อยมีใครพัฒนาโปรเซสเซอร์แบบนี   มีหลายหน่วยประมวลผลทำงานพร้อม ๆ กันกับข้อมูลเดียว.โครงสร้างนี้ไม่ได้ใช้แพทเทิร์นที่พบบ่อยและมักนำเสนอในทฤษฎีเพื่อแสดงความหลากหลายในโครงสร้าง.
-4. MIMD คือ โปรเซสเซอร์ทีใช้การประมวลผลด้วยชุดข้อมูลหลายชุดและทำงานได้หลายคำสั่ง ภายใน 1สญัญาณนาฬิกา
+2. SIMD คือ ประมวลผลด้วยชุดข้อมูลหลายชุดแต่ทำงานด้วยคำสั่งเดียว ภายใน 1สัญญาณนาฬิกาและได้ผลลัพธ์หลายชุดใช้ในโปรเซสเซอร์แบบPentium MMX  
+3. MISD คือ โปรเซสเซอร์ทีใช้การประมวลผลดว้ยชุดข้อมูลเพียงชุดเดียวแต่ทำงานได้หลายคำสั่ง ไม่ค่อยมีใครพัฒนาโปรเซสเซอร์แบบนี   มีหลายหน่วยประมวลผลทำงานพร้อม ๆ กันกับข้อมูลเดียว โครงสร้างนี้ไม่ได้ใช้แพทเทิร์นที่พบบ่อยและมักนำเสนอในทฤษฎีเพื่อแสดงความหลากหลายในโครงสร้าง
+4. MIMD คือ โปรเซสเซอร์ทีใช้การประมวลผลด้วยชุดข้อมูลหลายชุดและทำงานได้หลายคำสั่ง ภายใน 1สัญญาณนาฬิกา
 
 </div>
 <div class="w-1/2">
 <img src="/images/chapter5/parallel_processing.png" />
 </div>
 </div>
+
+---
+
+# SISD
+
+<div class="flex gap-3">
+<div class="w-1/2">
+
+- SISD คือ โปรเซสเซอร์ทีใช้การประมวลผลด้วยชุดข้อมูลเพียงชุดเดียวและทำงานด้วยคำสั่งเดียว ประกอบไปด้วย 
+
+    - ชุดข้อมูล (Data stream)
+    - CU 1 ตัว
+    - PU 1 ตัว
+    - Main memory 1 ตัว
+
+</div>
+<div class="w-1/2">
+<img src="/images/chapter5/sisd.png" />
+</div>
+</div>
+
+---
+
+# SIMD
+
+<div class="flex gap-3">
+<div class="w-1/2">
+
+- SIMD คือ ประมวลผลด้วยชุดข้อมูลหลายชุดแต่ทำงานด้วยคำสั่งเดียว ภายใน 1 สัญญาณนาฬิกาและได้ผลลัพธ์หลายชุด ใช้ในโปรเซสเซอร์แบบ Pentium MMX  ประกอบด้วย
+
+    - ชุดข้อมูลหลายชุด (Data streams)
+    - CU 1 ตัว
+    - ALU หลายๆตัว
+    - MU หลายๆตัว 
+
+
+</div>
+<div class="w-1/2">
+<img src="/images/chapter5/simd.png" />
+</div>
+</div>
+
+---
+
+# MIMD
+
+<div class="flex gap-3">
+<div class="w-1/2">
+
+- MIMD (Multiple Instruction Multiple Data stream) คือ โปรเซสเซอร์ทีใช้การประมวลผลด้วยชุดข้อมูลหลายชุดและทำงานได้หลายคำสั่ง ภายใน 1 สัญญาณนาฬิกา ประกอบด้วย
+    - ชุดข้อมูลหลายชุด (Data streams)
+    - CU หลายๆตัว
+    - ALU หลายๆตัว
+    - MU หลายๆตัว
+
+
+</div>
+<div class="w-1/2">
+<img src="/images/chapter5/mimd.png" />
+</div>
+</div>
+
+---
+layout: cover
+---
+
+# A simple computer
+
+---
+
+# A Simple computer
+
+<div class="flex gap-3">
+<div class="w-1/2">
+
+ประกอบด้วย
+
+1. Main memory
+2. CPU
+3. I/O
+
+- 1 Word = 16 bit หรือ 2 bytes (ดูจากความกว้างของหน่วยความจำ)
+- Address Space มีขนาด  8 bit หรือ 2<sup>8</sup> = 256 ช่อง
+
+หน่วยความจำใช้ไม่หมด  การเชื่อมต่อแบบ memory map I/O หมายเลข I/O ใช้ต่อเนื่องจากหน่วยความจำ 
+
+ดังนั้นหน่วยความจำมีขนาด 254 × 2 = 508 bytes
+
+
+</div>
+<div class="w-1/2">
+<img src="/images/chapter5/simple_computer.png" />
+</div>
+</div>
+
+---
+
+# Instruction set
+
+- ชุดคำสั่ง **(Instruction set)** คือ รายการของคำสั่งที่คอมพิวเตอร์สามารถทำความเข้าใจและปฏิบัติตามได้ คำสั่งเหล่านี้เป็นเหมือนภาษาที่คอมพิวเตอร์ใช้ในการสื่อสารและสั่งงานให้ทำสิ่งต่างๆ
+
+โครงสร้างของคำสั่ง:
+
+- **Opcode (รหัสคำสั่ง):** เป็นส่วนที่ระบุชนิดของการทำงานที่ต้องการให้คอมพิวเตอร์ทำ เช่น การบวก การลบ การคูณ การหาร หรือการย้ายข้อมูล
+
+- **Operand (ตัวถูกดำเนินการ):** เป็นส่วนที่ระบุข้อมูลที่เกี่ยวข้องกับการทำงาน เช่น ตัวเลขที่ต้องการนำมาคำนวณ หรือตำแหน่งหน่วยความจำที่ต้องการเข้าถึง
+
+- คำสั่งหนึ่งจะมีขนาด 16 bit (2 bytes) และแบ่งออกเป็น 4 ส่วน แต่ละส่วนมีขนาด 4 bit (1 byte) โดย
+
+    - **4 bit ซ้ายสุด:** ใช้สำหรับเก็บ opcode
+
+    - **อีก 12 bit:** ใช้สำหรับเก็บ operand หรือที่อยู่ของ operand
+
+
+---
+
+# Instruction set (2)
+
+<div class="flex gap-3">
+
+<div class="w-1/2">
+
+- คำสั่งหนึ่งจะมีขนาด 16 bit (2 bytes) และแบ่งออกเป็น 4 ส่วน แต่ละส่วนมีขนาด 4 bit (1 byte) โดย
+
+    - **4 bit ซ้ายสุด:** ใช้สำหรับเก็บ opcode
+
+    - **อีก 12 bit:** ใช้สำหรับเก็บ operand หรือที่อยู่ของ operand
+
+</div>
+
+<div class="w-1/2">
+
+<img src="/images/chapter5/instruction_format_type.png" />
+</div>
+</div>
+
+
+---
+
+# Processing the instructions 
+
+- ขั้นตอนการประมวลผลคำสั่ง
+
+    1. ขั้นตอนการดึงคำสั่ง **(Fetch Phase):**
+
+        1. คอมพิวเตอร์จะไปดึงคำสั่งถัดไปมาจากหน่วยความจำ: คำสั่งที่ดึงมานั้นจะถูกกำหนดโดยตัวชี้โปรแกรม **(Program Counter: PC)** ซึ่งเป็นตัวบอกตำแหน่งของคำสั่งถัดไปที่ต้องประมวลผล
+
+        2. คำสั่งที่ดึงมาจะถูกนำไปเก็บไว้ในหน่วยเก็บคำสั่ง **(Instruction Register: IR)** เพื่อเตรียมไว้สำหรับขั้นตอนถัดไป
+
+
+---
+
+# Processing the instructions (2)
+
+- ขั้นตอนการประมวลผลคำสั่ง
+
+    2. ขั้นตอนการถอดรหัส **(Decode Phase):**
+
+        1. คอมพิวเตอร์จะทำการถอดรหัสคำสั่งที่อยู่ใน **IR:** เพื่อแยกแยะว่าคำสั่งนั้นมีความหมายว่าอะไร และต้องการใช้อะไรในการทำงาน เช่น การบวก ลบ คูณ หาร หรือการย้ายข้อมูล
+        
+        2. คอมพิวเตอร์จะไปดึงข้อมูลที่จำเป็นมาใช้งาน: ข้อมูลเหล่านี้อาจจะเป็นตัวเลขที่ต้องการนำมาคำนวณ หรือที่อยู่ของข้อมูลในหน่วยความจำ
+
+
+---
+
+# Processing the instructions (3)
+
+
+- ขั้นตอนการประมวลผลคำสั่ง
+
+    3. ขั้นตอนการปฏิบัติการ **(Execute Phase):**
+
+        1. คอมพิวเตอร์จะทำตามคำสั่งที่ได้ถอดรหัส: เช่น การทำการคำนวณ การย้ายข้อมูล หรือการเปรียบเทียบค่า
+
+        2. ผลลัพธ์ที่ได้จากการปฏิบัติการจะถูกเก็บไว้ในที่ที่เหมาะสม: เช่น ในหน่วยความจำ หรือในรีจิสเตอร์
+    
+---
+
+# Processing the instructions (4)
+
+- ขั้นตอนการประมวลผลคำสั่ง
+
+    4. ขั้นตอนสุดท้ายและการเริ่มต้นวงจรใหม่:
+
+        1. หลังจากที่คอมพิวเตอร์ทำการประมวลผลคำสั่งหนึ่งเสร็จสิ้น 
+        (ซึ่งประกอบด้วยขั้นตอนการดึงคำสั่ง, ถอดรหัส และปฏิบัติการ) หน่วยควบคุมจะเริ่มต้นวงจรการทำงานใหม่อีกครั้ง
+
+        2. ในการเริ่มต้นวงจรใหม่นี้ ตัวชี้โปรแกรม (PC) ซึ่งทำหน้าที่ชี้ไปยังตำแหน่งของคำสั่งถัดไปในหน่วยความจำ จะถูกปรับให้ชี้ไปที่คำสั่งถัดไปในลำดับของโปรแกรม
+
+- การสิ้นสุดของกระบวนการ:
+
+    1. กระบวนการประมวลผลคำสั่งจะดำเนินต่อไปเรื่อยๆ ตามลำดับของคำสั่งในโปรแกรม
+    2. กระบวนการจะสิ้นสุดลงเมื่อ CPU พบคำสั่งพิเศษที่เรียกว่า **HALT** ซึ่งเป็นคำสั่งที่บอกให้ CPU หยุดทำงาน
+
+---
+
+# List of instructions for the simple computer
+
+<div class="flex gap-3">
+
+<div class="w-1/2">
+
+- การอ่านตาราง
+    - **Instruction:** ชื่อของคำสั่ง (ภาษาที่คอมพิวเตอร์เข้าใจ)
+    - **Code:** รหัสตัวเลขที่แทนคำสั่ง (คอมพิวเตอร์จะเข้าใจรหัสนี้)
+    - **Operands:** ข้อมูลเพิ่มเติมที่คำสั่งต้องการ เช่น ตัวเลขที่จะนำมาคำนวณ หรือตำแหน่งหน่วยความจำที่จะไปเอาข้อมูลมา
+    - **Action:** คำอธิบายว่าคำสั่งนั้นทำอะไร
+
+</div>
+
+<div class="w-1/2">
+
+<img src="/images/chapter5/list_instruction_table.png" class="w-[350px]" />
+</div>
+</div>
+
+---
+
+# List of instructions for the simple computer (2)
+
+<div class="flex gap-3">
+
+<div class="w-4/6">
+
+- การอ่านตาราง
+    - **Key:**
+        - S - Source (ต้นทาง)
+        - D - Destination (ปลายทาง)
+        - R<sub>S</sub>, R<sub>S1</sub>, R<sub>S2</sub>: Hexadecimal address of source registers
+        - R<sub>D</sub>: Hexadecimal address of destination register
+        - M<sub>S</sub>, R<sub>S1</sub>, R<sub>S2</sub>: Hexadecimal address of source memory location
+        - M<sub>D</sub>, R<sub>S1</sub>, R<sub>S2</sub>: Hexadecimal address of destination memory location
+        - ***n***: hexadecimal number
+        - d<sub>1</sub>, d<sub>2</sub>, d<sub>3</sub>, d<sub>4</sub>: First, second, third, and fourth hexadecimal digits 
+
+</div>
+
+<div class="w-2/6">
+
+<img src="/images/chapter5/list_instruction_table.png" class="" />
+</div>
+</div>
+
+---
+
+# List of instructions for the simple computer (3)
+
+<div class="flex gap-3">
+
+<div class="w-1/2">
+
+- ตัวอย่างคำอธิบายคำสั่ง
+    1. **HALT:** คำสั่งนี้จะทำให้คอมพิวเตอร์หยุดทำงาน
+    2. **LOAD:** คำสั่งนี้จะนำข้อมูลจากหน่วยความจำมาเก็บไว้ในรีจิสเตอร์
+    3. **ADD:** คำสั่งนี้จะนำค่าในสองรีจิสเตอร์มาบวกกัน แล้วเก็บผลลัพธ์ไว้ในรีจิสเตอร์อีกตัว
+
+
+</div>
+
+<div class="w-1/2">
+
+<img src="/images/chapter5/list_instruction_table.png" class="w-[350px]" />
+</div>
+</div>
+
+---
+
+# List of instructions for the simple computer (4)
+
+<div class="flex gap-3">
+
+<div class="w-1/2">
+
+- ตัวอย่าง
+
+<table class="border">
+<thead>
+<tr rowspan="2">
+<th rowspan="2" class="w-1/5">
+<div class="text-center">Instruction</div>
+</th>
+<th class="border">
+<div class="text-center">Code</div>
+</th>
+<th colspan="4" class="border">
+<div class="text-center">Operands</div>
+</th>
+</tr>
+<tr>
+<th class="border w-1/5">
+<div class="text-center">d1</div>
+</th>
+<th class="border w-1/5">
+<div class="text-center">d2</div>
+</th>
+<th class="border w-1/5">
+<div class="text-center">d3</div>
+</th>
+<th class="border w-1/5">
+<div class="text-center">d4</div>
+</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="border">LOAD</td>
+<td class="border">
+<div class="text-center">1</div>
+</td>
+<td class="border">
+<div class="text-center">0</div>
+</td>
+<td class="border">
+<div class="text-center">4</div>
+</td>
+<td class="border">
+<div class="text-center">0</div>
+</td>
+</tr>
+<tr>
+<td class="border">LOAD</td>
+<td class="border">
+<div class="text-center">1</div>
+</td>
+<td class="border">
+<div class="text-center">1</div>
+</td>
+<td class="border">
+<div class="text-center">4</div>
+</td>
+<td class="border">
+<div class="text-center">1</div>
+</td>
+</tr>
+<tr>
+<td class="border">ADDI</td>
+<td class="border">
+<div class="text-center">3</div>
+</td>
+<td class="border">
+<div class="text-center">2</div>
+</td>
+<td class="border">
+<div class="text-center">0</div>
+</td>
+<td class="border">
+<div class="text-center">1</div>
+</td>
+</tr>
+<tr>
+<td class="border">STORE</td>
+<td class="border">
+<div class="text-center">2</div>
+</td>
+<td class="border">
+<div class="text-center">2</div>
+</td>
+<td class="border">
+<div class="text-center">2</div>
+</td>
+<td class="border">
+<div class="text-center">2</div>
+</td>
+</tr>
+<tr>
+<td class="border">HALT</td>
+<td class="border">
+<div class="text-center">0</div>
+</td>
+<td class="border">
+<div class="text-center"></div>
+</td>
+<td class="border">
+<div class="text-center"></div>
+</td>
+<td class="border">
+<div class="text-center"></div>
+</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<div class="w-1/2">
+
+<img src="/images/chapter5/list_instruction_table.png" class="w-[350px]" />
+</div>
+</div>
+
+
+---
+
+# ตัวอย่าง
+
+- คอมพิวเตอร์สามารถนำจำนวนเต็มสองจำนวน (สมมุติว่าเป็น A และ B) มาบวกกันแล้วเก็บผลลัพธ์ไว้ในตัวแปรใหม่ (สมมุติว่าเป็น C)
+จำนวนเต็มที่นำมาคำนวณนั้นอยู่ในรูปแบบ two's complement ซึ่งเป็นวิธีการแทนจำนวนเต็มบวกและลบในคอมพิวเตอร์
+    - ค่าของ C จะเท่ากับผลบวกของ A และ B นั่นเอง **C = A + B**
+
+---
+
+# ตัวอย่าง 2
+
+- เราต้องการบวกจำนวนเต็มสองจำนวนที่เก็บไว้ในหน่วยความจำตำแหน่ง (40)<sub>16</sub> และ (41)<sub>16</sub> ผลลัพธ์ของการบวกจะถูกเก็บไว้ในหน่วยความจำตำแหน่ง (42)<sub>16</sub>
+
+
+<img src="/images/chapter5/example1.png" />
+
+- คำสั่งที่ใช้
+    1. นำค่าที่อยู่ในหน่วยความจำตำแหน่ง M<sub>40</sub> มาเก็บไว้ในรีจิสเตอร์ R<sub>0</sub>
+    2. นำค่าที่อยู่ในหน่วยความจำตำแหน่ง M<sub>41</sub> มาเก็บไว้ในรีจิสเตอร์ R<sub>1</sub>
+    3. นำค่าในรีจิสเตอร์ R<sub>0</sub> และ R<sub>1</sub> มาบวกกัน แล้วเก็บผลลัพธ์ไว้ในรีจิสเตอร์ R<sub>2</sub>
+    4. นำค่าในรีจิสเตอร์ R<sub>2</sub> (ซึ่งเป็นผลลัพธ์ของการบวก) ไปเก็บไว้ในหน่วยความจำตำแหน่ง (42)<sub>16</sub>
+    5. Halt: หยุดการทำงานของโปรแกรม
+
+---
+
+# ตัวอย่าง 2 (2)
+
+- แปลง 5 คำสั่ง
+
+<table class="border mt-3">
+<thead>
+<tr>
+<th class="border">Code</th>
+<th colspan="4">Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="border">
+(1040)<sub>16</sub>
+</td>
+<td class="border">
+1: LOAD
+</td>
+<td class="border">
+0: R<sub>0</sub>
+</td>
+<td colspan="2" class="border">
+40: M<sub>40</sub>
+</td>
+</tr>
+<tr>
+<td class="border">
+(1041)<sub>16</sub>
+</td>
+<td class="border">
+1: LOAD
+</td>
+<td class="border">
+1: R<sub>1</sub>
+</td>
+<td colspan="2" class="border">
+41: M<sub>41</sub>
+</td>
+</tr>
+<tr>
+<td class="border">
+(3201)<sub>16</sub>
+</td>
+<td class="border">
+3: ADDI
+</td>
+<td class="border">
+2: R<sub>2</sub>
+</td>
+<td class="border">
+0: R<sub>0</sub>
+</td>
+<td class="border">
+1: R<sub>1</sub>
+</td>
+</tr>
+<tr>
+<td class="border">
+(2422)<sub>16</sub>
+</td>
+<td class="border">
+2: STORE
+</td>
+<td colspan="2" class="border">
+42: M<sub>42</sub>
+</td>
+<td class="border">
+2: R<sub>2</sub>
+</td>
+</tr>
+<tr>
+<td class="border">
+(000)<sub>16</sub>
+</td>
+<td class="border">
+0: HALT
+</td>
+<td class="border">
+</td>
+<td class="border">
+</td>
+<td class="border">
+</td>
+</tr>
+</tbody>
+</table>
+
+
+---
+
+# ตัวอย่าง 2 (3) 
+
+- **Code:** คือรหัสตัวเลขที่แทนคำสั่งแต่ละคำสั่ง โดยมักจะเขียนในระบบเลขฐานสิบหก (hexadecimal)
+
+- **Interpretation:** คือคำอธิบายความหมายของคำสั่งนั้นเป็นภาษาคน
+
+- การทำงานของแต่ละคำสั่ง
+    1. (1040)<sub>16</sub>: คำสั่งนี้แปลว่า "นำค่าในหน่วยความจำตำแหน่ง 40 มาเก็บไว้ในรีจิสเตอร์ R<sub>0</sub>"
+
+    2. (1141)<sub>16</sub>: คำสั่งนี้แปลว่า "นำค่าในหน่วยความจำตำแหน่ง 41 มาเก็บไว้ในรีจิสเตอร์ R<sub>1</sub>"
+
+    3. (3201)<sub>16</sub>: คำสั่งนี้แปลว่า "นำค่าในรีจิสเตอร์ R<sub>0</sub> และ R<sub>1</sub> มาบวกกัน แล้วเก็บผลลัพธ์ไว้ในรีจิสเตอร์ R<sub>2</sub>"
+
+    4. (2422)<sub>16</sub>: คำสั่งนี้แปลว่า "นำค่าในรีจิสเตอร์ R<sub>2</sub> ไปเก็บไว้ในหน่วยความจำตำแหน่ง 42"
+
+    5. (0000)<sub>16</sub>: คำสั่งนี้แปลว่า "หยุดการทำงานของโปรแกรม"
+
+---
+
+# ตัวอย่าง 2 (4) 
+
+- บันทึกโปรแกรมและข้อมูล 
+
+    - บันทึกโปรแกรมทั้ง 5 บรรทัดไว้ที่หน่วยความจำ (00)<sub>16</sub> ถึง (04)<sub>16</sub>
+
+    - บันทึกข้อมูลไว้ที่หน่วยความจำ (40)<sub>16</sub>, (41)<sub>16</sub>, (42)<sub>16</sub>
+
+- รอบการทำงาน
+   - การประมวลผลคำสั่งหนึ่งคำสั่งจะใช้เวลาหนึ่งรอบ
+
+   - ถ้าโปรแกรมมี 5 คำสั่ง ก็จะต้องใช้เวลา 5 รอบในการประมวลผลทั้งหมด
+
+   - Add: 161 + 254 = 415, ตัวเลขเหล่านี้ จะถูกเก็บไว้ใน memory ในรูปฐาน 16 นั่นก็คือ (00A1)<sub>16</sub>, (00FE)<sub>16</sub> และ (019F)<sub>16</sub>
+    
+
+---
+layout: image
+image: ../public/images/chapter5/cycle1.png
+backgroundSize: contain
+---
+
+---
+layout: image
+image: ../public/images/chapter5/cycle2.png
+backgroundSize: contain
+---
+---
+layout: image
+image: ../public/images/chapter5/cycle3.png
+backgroundSize: contain
+---
+---
+layout: image
+image: ../public/images/chapter5/cycle4.png
+backgroundSize: contain
+---
+---
+layout: image
+image: ../public/images/chapter5/cycle5.png
+backgroundSize: contain
+---
