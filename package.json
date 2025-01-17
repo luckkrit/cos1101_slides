@@ -6,6 +6,7 @@
     "build": "slidev build",
     "dev": "slidev --open",
     "export": "slidev export",
+    "build_toc": "slidev build --base /cos1101_slides/ --out toc",
     "build_chapter5": "slidev build --base /cos1101_slides/chapter5/ --out chapter5",
     "build_chapter7": "slidev build --base /cos1101_slides/chapter7/ --out chapter7"
   },
